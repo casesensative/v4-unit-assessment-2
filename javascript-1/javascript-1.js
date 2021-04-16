@@ -146,7 +146,7 @@ delete gameInfo.rating;
 
 //CODE HERE
 
-for (const key in shapes) {
+for (let key in shapes) {
     if (shapes[key] % 2 !== 0) {
         delete shapes[key];
     }
