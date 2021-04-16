@@ -12,3 +12,206 @@ the font is called 'nunito' and can be found on google fonts
 ***you can use it if you'd like or you can choose your own***
 
 */
+body {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 1000;
+}
+
+
+header {
+  background-color: black;
+  width: 99.2vw;
+  height: 8vh;
+  display: flex;
+  position: fixed;
+}
+
+h1 {
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.title {
+  flex: 1;
+  color: rgb(42, 171, 226);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.menu {
+  flex: 4;
+  padding-right: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+}
+
+.navitem {
+  margin-left: 50px;
+  color: white;
+}
+
+main {
+  width: 99.2vw;
+  height: 100vh;
+  display: flex;
+  padding-top: 10vh;
+  justify-content: space-around;
+}
+
+.lcol {
+  height: 100%;
+  width: 50%;
+}
+
+.skcheck {
+  width: 90%;
+  height: 55%;
+  overflow: hidden;
+}
+
+p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.gallery {
+  max-width: 80%;
+  min-width: 700px;
+  height: 45%;
+  overflow: hidden;
+}
+
+aside {
+  position: absolute;
+  font-size: 10px;
+  left: 48%;
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: 1000;
+  margin-top: 40px;
+}
+
+.images {
+  width: 90%;
+  height: 95%;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.thumbnails {
+  width: 150px;
+  height: 150px;
+  margin-left: 45px;
+
+}
+
+.rcol {
+  height: 100%;
+  width: 30%;
+
+}
+
+.profile {
+  width: 32%;
+  min-width: 180px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  border: 0px solid;
+  border-radius: 4%;
+  box-shadow: 5px 5px 15px 5px rgba(1, 1, 1, .3);
+  margin-left: 25%;
+}
+
+.profileIcon {
+  width: 60%;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.articles {
+  width: 32%;
+  min-width: 180px;
+  box-sizing: border-box;
+  margin-top: 30px;
+  margin-left: 25%;
+  border: 0px solid;
+  border-radius: 4%;
+  box-shadow: 5px 5px 15px 5px rgba(1, 1, 1, .3);
+  text-align: center;
+  padding: 10px;
+  line-height: 19px;
+  
+}
+
+ol {
+  padding-left: 15px;
+  list-style: decimal;
+  text-align: left;
+  position: relative;
+  bottom: 10px;
+}
+
+li {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+footer {
+  background-color: rgb(42, 171, 226);
+  width: 99.2vw;
+  height: 6vh;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.learn {
+  flex: 1;
+  font-size: 12px;
+  background-color: rgb(42, 171, 226);
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 40px;
+  align-items: center;
+}
+
+.help {
+  flex: 4;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border: 3px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
